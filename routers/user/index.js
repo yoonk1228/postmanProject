@@ -1,5 +1,6 @@
 
 const express = require('express')
+const app = express()
 const router = express.Router()
 
 //user 규리
@@ -23,5 +24,6 @@ router.get('/update',(req,res)=>{
 router.post('/update',(req,res)=>{
     console.log('회원가입 정보 수정 완료')
 })
+
 
 module.exports = router

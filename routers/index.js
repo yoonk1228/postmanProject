@@ -14,4 +14,5 @@ router.use('/board',boardRouter)
 router.use('/user',userRouter)
 
 // 이걸 안적으면, 어디에서도 이 index.js를 불러오지못해요.
+
 module.exports = router
