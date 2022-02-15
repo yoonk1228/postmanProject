@@ -1,0 +1,19 @@
+{
+  "name": "postmanproject",
+  "version": "1.0.0",
+  "description": "!! pull 이후 꼭 ** npm install ** 실행해 주세요!",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "memorystore": "^1.6.7",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
